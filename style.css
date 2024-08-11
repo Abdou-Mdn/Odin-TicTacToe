@@ -27,6 +27,7 @@
 body {
     font-family: 'Pixeboy';
     font-size: 17px;
+    background-color: var(--COLOR-1);
     position: relative;
 }
 
@@ -35,6 +36,7 @@ header {
     font-size: 1.5rem;
     background-color: var(--COLOR-1);
     color: var(--COLOR-6);
+    text-align: center;
 }
 
 #shadow {
@@ -84,8 +86,11 @@ main {
 #turns {
     padding: 0.5rem;
     font-size: 1.5rem;
-    display: flex;
-    gap: 1rem;
+}
+
+p span {
+    margin-inline: 0.5rem;
+    text-wrap: nowrap;
 }
 
 #gameboard {
@@ -166,15 +171,6 @@ main {
     margin-top: 1.5rem;
 }
 
-/* #saveBtn, #restartBtn {
-    width: 4.5rem;
-    height: 1.8rem;
-    font-weight: 600;
-    border-radius: 0.5rem;
-    background-color: blueviolet;
-    color: wheat;
-    cursor: pointer;
-} */
 
 #closeBtn {
     width: 90%;
@@ -190,6 +186,6 @@ main {
 #winner {
     font-size: 2rem;
     margin: 1rem;
-    display: flex;
-    gap: 0.5rem;
 }
+
+
