@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-
-@font-face {
+/* @font-face {
     font-family: 'Pixeboy';
     src: url("/assets/pixeboy-font/Pixeboy-z8XGD.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 :root {
     --COLOR-1 : #030712;
@@ -24,18 +24,19 @@
     padding: 0;
     outline: 0;
     line-height: 1.5;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
 }
 
 body {
-    font-family: 'Pixeboy';
     font-size: 17px;
     background-color: var(--COLOR-1);
     position: relative;
 }
 
 header {
-    padding: 0.8rem;
-    font-size: 1.5rem;
+    padding: 2.5rem 0.8rem;
+    font-size: 1rem;
     background-color: var(--COLOR-1);
     color: var(--COLOR-6);
     text-align: center;
@@ -69,8 +70,8 @@ main {
     height: 2rem;
     padding-inline: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 0.6rem;
     font-weight: 500;
-    text-transform: uppercase;
     background-color: transparent;
     border: 2px solid var(--COLOR-6);
     color: var(--COLOR-6);
@@ -87,7 +88,7 @@ main {
 
 #turns {
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
 }
 
 p span {
@@ -112,7 +113,9 @@ p span {
     box-shadow: 0 0 0 2px var(--COLOR-2);
     cursor: pointer;
     font-size: 4.5rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cell.blocked {
@@ -140,7 +143,7 @@ p span {
     background-color: var(--COLOR-3);
     min-height: 10rem;
     width: 60%;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,8 +159,9 @@ p span {
 
 
 #ChangeNames input {
-    width: 75%;
+    width: max(75%,180px);
     height: 1.8rem;
+    font-size: 0.6rem;
     border-radius: 0.5rem;
     padding-left: 0.5rem;
     border: 1px solid var(--COLOR-2);
@@ -167,6 +171,7 @@ p span {
 
 #ChangeNames input:focus {
     border: 1px solid var(--COLOR-6);
+    color: var(--COLOR-6);
 }
 
 #saveBtn {
@@ -186,7 +191,7 @@ p span {
 }
 
 #winner {
-    font-size: 2rem;
+    font-size: 0.8rem;
     margin: 1rem;
 }
 
