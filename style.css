@@ -2,7 +2,9 @@
 
 @font-face {
     font-family: 'Pixeboy';
-    src: url(/assets/pixeboy-font/Pixeboy-z8XGD.ttf);
+    src: url("/assets/pixeboy-font/Pixeboy-z8XGD.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
