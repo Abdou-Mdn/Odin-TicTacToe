@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* @font-face {
-    font-family: 'Pixeboy';
-    src: url("/assets/pixeboy-font/Pixeboy-z8XGD.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-} */
-
 :root {
     --COLOR-1 : #030712;
     --COLOR-2 : #fafafa;
