@@ -6,10 +6,8 @@
     --COLOR-3 : #111827;
     --COLOR-4 : #b91c1c;
     --COLOR-5 : #0369a1;
-    --COLOR-6 : #84cc16;
-    
+    --COLOR-6 : #84cc16;   
 }
-
 
 * {
     box-sizing: border-box;
@@ -105,10 +103,9 @@ p span {
     border: 2px solid var(--COLOR-2);
     box-shadow: 0 0 0 2px var(--COLOR-2);
     cursor: pointer;
+    padding: 0.3rem 0 0 0.7rem;
     font-size: 4.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .cell.blocked {
